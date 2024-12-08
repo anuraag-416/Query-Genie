@@ -12,7 +12,7 @@ Query Genie is an innovative platform that democratizes database access by allow
 ## Architecture
 
 ### High-Level Architecture
-![High-Level Architecture](path/to/high-level-arch.png)
+![High-Level Architecture](HLD.png)
 
 The high-level architecture demonstrates the core flow:
 1. User inputs natural language query
