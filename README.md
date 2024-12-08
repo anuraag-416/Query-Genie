@@ -21,7 +21,7 @@ The high-level architecture demonstrates the core flow:
 4. Results are returned and formatted
 
 ### Low-Level Component Architecture
-Sequence Diagram.png
+![Low-Level Architecture](LowLevelDiagram.png)
 
 Key components include:
 - Frontend: React/Next.js UI
