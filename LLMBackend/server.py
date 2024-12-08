@@ -4,7 +4,6 @@ from flask_cors import CORS
 from custom_db_llm_connector import *
 from urllib.parse import quote
 from ragdb_connector import *
-openai_api_key = "sk-s72MEB57cNAt-QMq_-g1Rl5BLG-8_mgc5lK4Ne22dET3BlbkFJIVrm1sd7jwPUtuTykE8jdwAc4N0Nn8wf_a2E0lGegA"
 import json
 app = Flask(__name__)
 CORS(app)
