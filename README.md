@@ -31,7 +31,7 @@ Key components include:
 - Query Validation Service
 
 ### System Sequence Diagram
-![Low-Level Architecture](Sequence Diagram.png)
+![Low-Level Architecture](SequenceDiagram.png)
 
 
 Illustrates the detailed interaction between system components during a typical query process.
