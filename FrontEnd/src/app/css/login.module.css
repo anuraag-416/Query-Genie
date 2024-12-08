@@ -1,0 +1,149 @@
+/* General Styling */
+.body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Flexbox Layouts */
+.main-container, 
+.main-header, 
+.landing-sub-container, 
+.intro, 
+.login-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+}
+
+.landing-sub-container {
+  width: 50vw;
+  height: 100vh;
+}
+
+.intro-container {
+  color: rgb(16, 160, 47);
+  background: url("../bg.jpg") no-repeat center center/cover;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .7);
+}
+
+.intro, 
+.login-section {
+  flex-direction: column;
+}
+
+.intro {
+  width: 80%;
+  margin-left: 10%;
+}
+
+.login-section {
+  width: 60%;
+  margin-left: 20%;
+}
+
+/* Login Styles */
+.login-container {
+  text-align: center;
+  width: 70%;
+}
+
+.login-title {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.login-form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+  text-align: left;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+}
+
+#login-btn {
+  background-color: #3e2866;
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+#login-btn:hover {
+  cursor: pointer;
+}
+
+.login-link {
+  width: 100%;
+  text-decoration: none;
+  color: white;
+}
+
+/* Button Styles */
+.btn {
+  padding: 14px 30px;
+  letter-spacing: 0.03em;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  font-weight: 700;
+  border-radius: 10px;
+  background-color: rgb(161, 161, 161);
+  margin: 10px;
+  border: none;
+}
+
+.btn:hover {
+  background-color: rgb(116, 116, 116);
+}
+
+#signup-btn {
+  width: 70%;
+  text-align: center;
+  cursor: pointer;
+}
+
+/* Header */
+.header {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+
+.site-name {
+  font-size: 1.2rem;
+  font-weight: bolder;
+  text-align: center;
+  flex: 1;
+}
+
+.auth-buttons {
+  display: flex;
+  position: absolute;
+  right: 0;
+}
+
+/* Paragraph */
+.p {
+  font-size: 18px;
+  color: rgb(214, 214, 214);
+}
